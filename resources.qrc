@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/lmm_gas_import" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

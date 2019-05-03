@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=LMM Gas Data Import
+qgisMinimumVersion=3.0
+description=This plugin allows for the direct import and formatting of gas data from the text file output of the Laser Methan Mini data logger.
+version=0.1
+author=Silver Spring Energy Consulting Ltd.
+email=tpubben@silverspringenergy.com
+
+about=LMM Gas Data Import provides an automated process where the .txt export from LMC process for the laser methane mini gas detector is imported to a new map layer, the lat/long coordinates for each reading is parsed and the gas readings added to a floating point field. Also includes the ability to name the output and add layer to an appropriate geodatabase.
+
+tracker=http://bugs
+repository=https://github.com/tpubben/LMC_QGIS
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, laser methane gas detector
+
+homepage=https://www.silverspringenergy.com
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
